@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 196, 0);
+    display: -inline-box;
+    text-align: center;
+    float: center;
+    margin-top: 100px;
+    color: rgb(16, 66, 109);
+}
+
+.films{
+    display: inline-block;
+    align-items: center;
+}
+
