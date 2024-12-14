@@ -23,25 +23,22 @@ body{
 .film {
     display: block;
     align-items: flex-start;
-    border: 1px solid;
-    border-radius: 10px;
     background-color: rgb(213, 230, 230);
     padding: 10px;
     box-shadow: 0 4px 6px rgba(131, 121, 168, 0.664)
 }
 
 
-
-.film .filmitems, .film div{
-max-width: 700px;
-}
-
-
 div input[type="button"]{
+    border: 1px solid;
     color: rgb(192, 16, 16);
-    border: none;
+    border-color: red;
     cursor: pointer;
     transition: background-color 0.3s ease;}
+
+.buy ticket:hover{
+    background-color: darkcyan;
+}
 
 
 div p{
@@ -53,12 +50,3 @@ div p{
 }
 
 
-div img {
- 
-        border:8px solid #990bb6;
-    height:400px;
-    margin: 20px;
-    padding: 9px;
-    width:340px;
-    background-color: rgb(165, 17, 165);
-}
